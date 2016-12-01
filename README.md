@@ -2,6 +2,8 @@
 
 This code is for demonstrating a problem with ng-xi18n when the project imports angular2 component from another node module.
 
+**Note: this project does not use angular-cli**
+
 ```
 $ npm install
 $ npm start
