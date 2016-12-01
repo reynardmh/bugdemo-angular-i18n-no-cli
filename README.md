@@ -25,18 +25,12 @@ This applications imports `CoolComponent` from another node_module `https://gith
 
 ```
 // app.module.ts
-import { CoolComponent } from 'angular2-component-module/lib';
+import { CoolComponent } from 'angular2-component-module/lib/cool.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CoolComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports:      [ BrowserModule ],
+  declarations: [ AppComponent, CoolComponent ],
+  bootstrap:    [ AppComponent ]
 })
 ```
 
